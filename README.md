@@ -1,6 +1,6 @@
 # Atividades de Programação Orientada a Objetos
 
-Um conjunto de exercícios e exemplos em Java para praticar conceitos de Programação Orientada a Objetos (POO): classes, herança, classes/ métodos abstratos, interfaces, padrões de projeto e manipulação de números com BigDecimal. Destina-se a estudantes e quem está aprendendo Java/POO.
+Um conjunto de exercícios e exemplos em Java para praticar conceitos de Programação Orientada a Objetos (POO): classes, herança, classes/ métodos abstratos, interfaces, padrões de projeto e manipulação de números com BigDecimal.
 
 ## Stack
 - **Linguagem:** Java
@@ -54,25 +54,3 @@ Compilar todos os fontes (Unix/macOS):
 find . -name "*.java" -print | xargs javac
 ```
 ou compile por diretório conforme necessário.
-
-## Observações específicas sobre arquivos que inspeccionamos
-- BigDecimal/Account.java, BigDecimal/AccountTest.java — exemplo de manipulação de saldo usando BigDecimal; AccountTest usa Scanner para entrada.
-- ClassAbstract/Veiculo.java, ClassAbstract/Carro.java, ClassAbstract/Principal.java — demonstra classe abstrata, implementação concreta e uso no método main.
-
-## Boas práticas sugeridas
-- Padronizar pacotes (ex.: `br.edu.exercicios.*`) para toda a árvore de fontes, facilitando builds automatizados.
-- Adicionar um build tool (Maven/Gradle) para compilar/executar testes automaticamente.
-- Incluir testes unitários (JUnit) para exemplos que comportam verificação automática (por exemplo, comportamentos de Account e outras classes).
-
-## Como contribuir
-- Abra uma issue descrevendo a melhoria ou bug.
-- Envie PRs com um único objetivo por PR (ex.: adicionar Gradle, adicionar README por diretório, adicionar testes).
-- Mantenha o estilo do código consistente e adicione instruções de execução quando adicionar novos exercícios.
-
-## Perguntas que podem ser úteis
-- Quer que eu adicione um arquivo de build (Gradle ou Maven) para compilar e executar todos os exercícios com um só comando?
-- Deseja que eu padronize os pacotes e atualize os arquivos para seguir convenções (por exemplo, mover arquivos sem `package` para pacotes)?
-- Quer que eu crie instruções detalhadas por pasta (README em cada diretório) ou adicione exemplos de testes JUnit para Account e outras classes?
-
----
-Licença: escolha uma licença (por exemplo MIT) e adicione um arquivo LICENSE se quiser compartilhar.
